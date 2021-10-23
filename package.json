@@ -1,0 +1,33 @@
+{
+    "name": "shell-script-ide",
+    "displayName": "Shell script IDE",
+    "description": "Set of extensions to convert VSCode to IDE for shell scripting (sh, bash)",
+    "version": "0.0.1",
+    "publisher": "woozy-masta",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+      "color": "#055915",
+      "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "exiasr.hadolint",
+        "formulahendry.code-runner",
+        "foxundermoon.shell-format",
+        "jeff-hykin.better-dockerfile-syntax",
+        "jeff-hykin.better-shellscript-syntax",
+        "mads-hartmann.bash-ide-vscode",
+        "meronz.manpages",
+        "Remisa.shellman",
+        "rogalmic.bash-debug",
+        "ryu1kn.edit-with-shell",
+        "tetradresearch.vscode-h2o",
+        "timonwong.shellcheck",
+        "xshrim.txt-syntax"
+    ]
+}
