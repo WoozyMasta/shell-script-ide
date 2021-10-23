@@ -2,7 +2,31 @@
 
 Set of extensions to convert VSCode to IDE for shell scripting (sh, bash)
 
-Recommended setting:
+## Install binary dependencies
+
+For the extensions to work correctly, you need to install binary dependencies
+into your operating system.
+
+Install utilities from the release pages:
+
+* <https://github.com/koalaman/shellcheck/releases>
+* <https://github.com/hadolint/hadolint/releases>
+* <https://github.com/mvdan/sh/releases>
+
+Install bashdb:
+
+```bash
+BASDB_VERSION=5.0-1.1.2
+curl -Lo "bashdb-$BASDB_VERSION.tar.gz" \
+  "https://sourceforge.net/projects/bashdb/files/bashdb/$BASDB_VERSION/bashdb-$BASDB_VERSION.tar.gz/download"
+tar xf "bashdb-$BASDB_VERSION.tar.gz"
+cd "bashdb-$BASDB_VERSION/"
+./configure
+make
+sudo make install
+```
+
+## Recommended VSCode setting
 
 ```json
 {
