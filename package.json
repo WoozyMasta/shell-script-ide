@@ -2,22 +2,22 @@
     "name": "shell-script-ide",
     "displayName": "Shell script IDE",
     "description": "Set of extensions to convert VSCode to IDE for shell scripting (sh, bash)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "woozy-masta",
     "repository": {
         "type": "git",
         "url": "https://github.com/WoozyMasta/shell-script-ide.git"
-      },
+    },
     "bugs": {
         "url": "https://github.com/WoozyMasta/shell-script-ide/issues",
         "email": "woozy.masta@gmail.com"
-      },
+    },
     "homepage": "https://github.com/WoozyMasta/shell-script-ide/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/icon.png",
     "galleryBanner": {
-      "color": "#055915",
-      "theme": "dark"
+        "color": "#055915",
+        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.61.0"
