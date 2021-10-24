@@ -2,7 +2,7 @@
     "name": "shell-script-ide",
     "displayName": "Shell script IDE",
     "description": "Set of extensions to convert VSCode to IDE for shell scripting (sh, bash)",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "woozy-masta",
     "repository": {
         "type": "git",
