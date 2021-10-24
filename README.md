@@ -62,3 +62,11 @@ sudo make install
   // Other settings 
 }
 ```
+
+## Links
+
+* [Подготовка эффективной среды для написания bash сценариев][habr] - an article
+  in Russian about preparing an effective environment for developing
+  bash scripts
+
+[habr]: https://habr.com/ru/post/583320/
