@@ -7,13 +7,18 @@ Set of extensions to convert VSCode to IDE for shell scripting (sh, bash)
 For the extensions to work correctly, you need to install binary dependencies
 into your operating system.
 
-Install utilities from the release pages:
+---
 
-* <https://github.com/koalaman/shellcheck/releases>
-* <https://github.com/hadolint/hadolint/releases>
-* <https://github.com/mvdan/sh/releases>
+Install **hadolint**:
 
-Install bashdb:
+* Download the [latest binary release][hadolint-releases] and install it on
+  your system, or use the official [installation guide][hadolint-install].
+
+---
+
+Install **bashdb**:
+
+Download [bashdb source][bashdb] files and install it:
 
 ```bash
 BASDB_VERSION=5.0-1.1.2
@@ -25,6 +30,15 @@ cd "bashdb-$BASDB_VERSION/"
 make
 sudo make install
 ```
+
+---
+
+Optionally you can also install binaries for [**shellcheck**][shellcheck] and
+[**shfmt**][shfmt]. But in most cases this is not necessary, they are installed
+automatically when the extension is installed.
+
+* [github.com/koalaman/shellcheck][shellcheck]
+* [github.com/mvdan/sh][shfmt]
 
 ## Recommended VSCode setting
 
@@ -69,4 +83,11 @@ sudo make install
   in Russian about preparing an effective environment for developing
   bash scripts
 
+<!-- links -->
+
+[hadolint-releases]: https://github.com/hadolint/hadolint/releases
+[hadolint-install]: https://github.com/hadolint/hadolint#install
+[bashdb]: https://sourceforge.net/projects/bashdb/files/bashdb/
+[shellcheck]: <https://github.com/koalaman/shellcheck/releases>
+[shfmt]: <https://github.com/mvdan/sh/releases>
 [habr]: https://habr.com/ru/post/583320/
